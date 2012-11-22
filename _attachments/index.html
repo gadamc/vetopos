@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Muon Veto Shield Position</title>
+  <meta name="webauthor" content="Adam Cox">
+
+  <!-- Le styles -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">    
+  <link href="css/smoothness/jquery-ui-1.9.1.custom.css" rel="stylesheet">
+  <link href="css/mystyle.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+  <div class="navbar  navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href="index.html">Edelweiss</a>
+        <ul class="nav" id="navbarList">
+          <!--             filled in by javascript js/navbar.js-->      
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="page-header" id="pageheader"></div>
+      
+    <br>   
+
+    <div class="span12">
+
+      <button class="btn span2" data-loading-text="loading..." id='plotButton'>Plot</button>
+
+      <div class="span4 offset1">
+        Start Date:  <input type="text" id="idate" name="idate" />
+      </div>
+      <div class="span4">
+        End Date:   <input type="text" id="fdate" name="fdate"  />
+      </div>  
+    
+    </div>
+
+    <br><br><br><br>
+
+ 
+    <div class="span10" id="theplot"></div>
+          
+                
+
+  </div> <!-- /container -->
+     
+  <script type="text/javascript" src="js/jquery-1.8.2.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.9.1.custom.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-timepicker-addon.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-sliderAccess.js"></script>
+
+  <script type="text/javascript" src="js/jquery.couch.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="js/highcharts.js"></script>
+  <script type="text/javascript" src="js/modules/exporting.js"></script>
+
+  <script type="text/javascript" src="js/navbar.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  
+  
+</body>
+
+</html>
